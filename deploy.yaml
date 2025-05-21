@@ -4,6 +4,6 @@ global:
   type: static-website
 
 deployment:
-  localDir: dict
+  localDir: dist
   staticAppSettings:
     SERVICE_URL: "https://otk-v2.data-nonprod.imaginelearning.com"
