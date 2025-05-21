@@ -1,0 +1,20 @@
+# OPTIONAL: Any Namespace overrides you need
+namespaces:
+  dev:
+    staticAppSettings:
+      env: dev
+      NODE_ENV: production
+      DEPLOYMENT_ENV: dev
+  qa:
+    staticAppSettings:
+      env: qa
+      NODE_ENV: production
+      DEPLOYMENT_ENV: qa        
+  prod:
+    staticAppSettings:
+      env: prod
+      NODE_ENV: production
+      DEPLOYMENT_ENV: production
+
+
+
