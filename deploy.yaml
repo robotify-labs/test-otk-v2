@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ImagineLearning/otk-schema-validator/main/deploy.yaml/v1.0.json
+global:
+  name: otk-v2
+  type: static-website
+
+deployment:
+  localDir: dist
+  staticAppSettings:
+    SERVICE_URL: "https://otk-v2.data-nonprod.imaginelearning.com"
