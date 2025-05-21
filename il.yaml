@@ -1,0 +1,13 @@
+global:
+  name: otk-v2
+  type: static-website
+  autoDeploy:
+    enabled: false # Enable or Disable(default when absent) autoDeploy up to and including the highestEnvironment
+    highestEnvironment: prod # Inclusive highest environment to auto deploy into
+deployment:
+  localDir: hackathon # REQUIRED: the directory relative to the deployment file where the built files are put
+  staticAppSettings:
+    SERVICE_URL: "https://otk-v2.data.il.com"
+deployables:
+  ./deploy.yaml
+
