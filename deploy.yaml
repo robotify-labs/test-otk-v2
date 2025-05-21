@@ -1,0 +1,7 @@
+global:
+  name: otk-v2
+  type: static-website
+  autoDeploy:
+    enabled: false
+    highestEnvironment: main
+
